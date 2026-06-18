@@ -35,10 +35,10 @@ const Resume = () => {
 
           {/* Education Item */}
           <motion.div
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6 }}
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
             className="relative flex flex-col md:flex-row items-start md:items-center justify-between mb-16"
           >
             <div className="order-1 md:w-5/12 hidden md:block"></div>
@@ -62,10 +62,10 @@ const Resume = () => {
 
           {/* Experience Item */}
           <motion.div
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ duration: 0.8, ease: 'easeOut', delay: 0.1 }}
             className="relative flex flex-col md:flex-row items-start md:items-center justify-between"
           >
             <div className="order-2 md:order-1 w-auto md:w-5/12 ml-8 md:ml-0 glass-card bg-navy/40 border border-white/10 rounded-2xl p-6 text-left hover:border-violet/50 transition-all duration-300 group">

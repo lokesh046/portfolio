@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiSend } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiSend, FiCpu } from 'react-icons/fi';
+import { SiLeetcode } from 'react-icons/si';
 
 const Contact = () => {
   const [formStatus, setFormStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
@@ -151,6 +152,20 @@ const Contact = () => {
                     <FiLinkedin size={20} />
                   </div>
                   <span className="font-light text-base md:text-lg transition-colors group-hover:text-white">linkedin.com/in/lokesh-m</span>
+                </a>
+
+                <a href="https://leetcode.com/u/lokesh_coder/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-gray-300 hover:text-violet transition-colors group">
+                  <div className="w-12 h-12 rounded-xl bg-violet/10 flex items-center justify-center text-violet group-hover:bg-violet group-hover:text-white transition-all duration-300 shadow-[0_0_10px_rgba(123,94,167,0.1)]">
+                    <SiLeetcode size={20} />
+                  </div>
+                  <span className="font-light text-base md:text-lg transition-colors group-hover:text-white">leetcode.com/u/lokesh_coder</span>
+                </a>
+
+                <a href="https://www.tensortonic.com/profile/loki_" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-gray-300 hover:text-cyan transition-colors group">
+                  <div className="w-12 h-12 rounded-xl bg-cyan/5 flex items-center justify-center text-cyan group-hover:bg-cyan group-hover:text-navy transition-all duration-300 shadow-[0_0_10px_rgba(0,212,255,0.1)]">
+                    <FiCpu size={20} />
+                  </div>
+                  <span className="font-light text-base md:text-lg transition-colors group-hover:text-white">tensortonic.com/profile/loki_</span>
                 </a>
               </div>
             </div>
