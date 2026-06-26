@@ -4,6 +4,13 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const PROJECTS = [
   {
+    title: 'GitHub Repository QA Bot',
+    description: 'An interactive AI chat assistant designed to explore, analyze, and query public GitHub repositories. Features a responsive dashboard, stateless FastAPI backend, repository file cache, and dynamic streaming code analysis.',
+    tech: ['React', 'FastAPI', 'PostgreSQL', 'S3 Storage', 'Docker'],
+    github: 'https://github.com/lokesh046/Github-URL-QandA',
+    live: 'https://github-repo-url-qanda.vercel.app',
+  },
+  {
     title: 'Wealth to FIRE Platform',
     description: 'A comprehensive wealth management platform helping users calculate, visualize, and achieve Financial Independence, Retire Early (FIRE) goals through secure data storage.',
     tech: ['FastAPI', 'PostgreSQL', 'ChromaDB', 'React', 'TypeScript'],
