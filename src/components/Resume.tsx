@@ -19,7 +19,7 @@ const Resume = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-cyan to-violet rounded-full mb-8"></div>
 
           <a
-            href="https://drive.google.com/file/d/1-fevRiNdOvrJpeEY2aA9MRm3z6W9wIe8/view?usp=sharing"
+            href="https://drive.google.com/file/d/1sZ_CoOQLJ4WhpaUqxUeIoOEpcvfYlpSV/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-cyan/10 border border-cyan text-cyan font-semibold hover:bg-cyan hover:text-navy transition-all shadow-[0_0_15px_rgba(0,212,255,0.2)] group"
