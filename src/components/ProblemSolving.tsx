@@ -101,7 +101,7 @@ const ProblemSolving = () => {
                 <FiCpu size={28} />
               </div>
               <a
-                href="https://www.tensortonic.com/profile/loki_"
+                href="https://www.tensortonic.com/profile/lokesh_coder"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-400 hover:text-cyan transition-colors"
