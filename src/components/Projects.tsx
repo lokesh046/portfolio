@@ -4,6 +4,13 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const PROJECTS = [
   {
+    title: 'E-Commerce Menswear Platform',
+    description: 'A full-stack menswear e-commerce application featuring interactive product catalogs, category filtering, video reels showcases, cart & order processing, and an admin dashboard.',
+    tech: ['React', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'Python'],
+    github: 'https://github.com/lokesh046/ecommerce-menswear',
+    live: 'https://ecommerce-menswear.vercel.app/',
+  },
+  {
     title: 'GitHub Repository QA Bot',
     description: 'An interactive AI chat assistant designed to explore, analyze, and query public GitHub repositories. Features a responsive dashboard, stateless FastAPI backend, repository file cache, and dynamic streaming code analysis.',
     tech: ['React', 'FastAPI', 'PostgreSQL', 'S3 Storage', 'Docker'],
